@@ -9,12 +9,6 @@ npm run start
 
 ```
 
-# Test
-
-```bash
-npm run test
-
-```
 
 # Autor
 
