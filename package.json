@@ -1,0 +1,21 @@
+{
+  "name": "mfe-react",
+  "version": "1.0.0",
+  "description": "This repository is a example of Microfrontend Module Federation for React applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run dashboard:start\" \"npm run orders:start\"",
+    "dashboard:start": "cd apps/dashboard && npm run start",
+    "orders:start": "cd apps/orders && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maikmb/mfe-react.git"
+  },
+  "author": "Maik Braga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maikmb/mfe-react/issues"
+  },
+  "homepage": "https://github.com/maikmb/mfe-react#readme"
+}
